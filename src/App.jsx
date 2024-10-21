@@ -3,6 +3,8 @@ import Todoinput from "./components/Todoinput";
 import TodoList from "./components/TodoList";
 
 function App() {
+  // this is the initial state of the todos
+
   const [todos, setTodos] = useState([
     "Go to Gym",
     "Buy groceries",
